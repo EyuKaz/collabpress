@@ -1,0 +1,43 @@
+.collabpress-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#add-task-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+#tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tasks-table th {
+    background: #f5f5f5;
+    padding: 12px;
+    text-align: left;
+}
+
+#tasks-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.button-primary {
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+    padding: 8px 20px;
+    cursor: pointer;
+}
